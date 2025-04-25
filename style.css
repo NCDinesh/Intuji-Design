@@ -1,0 +1,229 @@
+:root {
+  --gray-color: #d9d9d9;
+  --main-font: "Plus Jakarta Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--main-font);
+  background-color: white;
+  width: 1440px;
+  height: 1024px;
+  border-radius: 32px;
+}
+
+p {
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+h1 {
+  font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1px;
+}
+
+.font18{
+  font-size: 18px;
+}
+
+.faded{
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+}
+
+
+/* navbar section */
+
+.navbar {
+  width: 280px;
+  height: 1024px;
+  position: absolute;
+  padding: 32px 0px;
+}
+
+.navbar .profile {
+  width: 178px;
+  height: 52px;
+  margin: 0px 33px 35px 36px;
+  background-color: var(--gray-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .items {
+  display: flex;
+  width: 258px;
+  height: 64px;
+  padding-left: 45px;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar .item-group {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 512px;
+}
+
+.navbar .nav3 {
+  margin-top: 232px;
+}
+.navbar .nav1 {
+  margin-bottom: 32px;
+}
+
+.line {
+  width: 219px;
+  height: 1px;
+  opacity: 0.3;
+  background-color: #0d163a;
+  margin-left: 30.5px;
+  margin-bottom: 32px;
+}
+
+/* start of middle section*/
+.middle {
+  width: 722px;
+  margin: 32px 312px;
+}
+
+.middle .search-field {
+  display: flex;
+  width: 722px;
+  height: 64px;
+  padding: 13px 20px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-bottom: 32px;
+}
+
+.middle .overview{
+display: flex;
+width: 717px;
+height: 430px;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+
+}
+
+.middle .overview h1{
+  margin-bottom: 24px;
+}
+
+.middle .overview .box-card{
+display: flex;
+padding: 20px;
+flex-direction: column;
+align-items: flex-start;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 14px;
+width: 333.5px;
+height: 165.5px;
+background-color: red;
+
+}
+.overview .box-card .content .box-title{
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+}
+
+.overview .box-card .content .box-price{
+  font-family: "Plus Jakarta Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2px;
+  
+}
+
+.overview .box-card .content .box-card.card1 .box-price{
+  color: #FFF;
+}
+
+.middle .overview .itembox-group .upper{
+  display: flex;
+  gap: 18px;
+}
+
+
+
+.overview .upper .content .content-upper{
+  display: flex;
+  gap: 17px;
+}
+
+.overview .lower .content .content-upper{
+  display: flex;
+  gap: 17px;
+}
+
+.overview .upper .content .content-upper .right{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+
+.line2 {
+  width: 293.5px;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #FFF;
+  margin: 21.25px 0;
+
+}
+
+.overview .upper .content .content-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overview .lower .content .content-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle .overview .itembox-group .lower{
+  display: flex;
+  gap: 18px;
+}
+
+.middle .overview .box-card.card1{
+  background-color: #4745A4;
+  color: white;
+}
+
+.middle .overview .itembox-group{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
