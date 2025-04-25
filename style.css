@@ -40,6 +40,8 @@ letter-spacing: -1px;
   font-weight: 400;
   line-height: normal;
   opacity: 0.6;
+  align-items: center;
+
 }
 
 
@@ -143,7 +145,7 @@ align-self: stretch;
 border-radius: 14px;
 width: 333.5px;
 height: 165.5px;
-background-color: red;
+
 
 }
 .overview .box-card .content .box-title{
@@ -188,6 +190,7 @@ line-height: 24px;
   display: flex;
   flex-direction: column;
   gap: 9px;
+
 }
 
 
@@ -196,6 +199,16 @@ line-height: 24px;
   height: 1px;
   opacity: 0.2;
   background-color: #FFF;
+  margin: 21.25px 0;
+
+}
+
+
+.line3 {
+  width: 293.5px;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #0D163A;
   margin: 21.25px 0;
 
 }
